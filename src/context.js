@@ -1,5 +1,6 @@
-import React, {useState, useContet, useContext} from "react";
-import sublinks from './data';
+import React, {useState, useContext} from "react";
+import sublinks from './icondata';
+
 const AppContext = React.createContext();
 
 const AppProvider = ({children}) => {
