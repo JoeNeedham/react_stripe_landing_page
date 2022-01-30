@@ -20,7 +20,7 @@ const AppProvider = ({children}) => {
         setLocation(coordinates);
         setIsSubMenuOpen(true);
     }
-    const closeSubMenu = () => {
+    const closeSubmenu = () => {
         setIsSubMenuOpen(false);
     }
     return (
@@ -31,7 +31,7 @@ const AppProvider = ({children}) => {
             closeSidebar,
             isSubMenuOpen,
             openSubmenu,
-            closeSubMenu,
+            closeSubmenu,
             page,
             location
         }}
